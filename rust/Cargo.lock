@@ -19,6 +19,10 @@ name = "fake_binary"
 version = "0.1.0"
 
 [[package]]
+name = "number_to_string"
+version = "0.1.0"
+
+[[package]]
 name = "opposites_attract"
 version = "0.1.0"
 
