@@ -1,4 +1,4 @@
-fn feast(beast: &str, dish: &str) -> bool {
+pub fn feast(beast: &str, dish: &str) -> bool {
     let mut beast_chars = beast.chars();
     let mut dish_chars = dish.chars();
     beast_chars.nth(0) == dish_chars.nth(0) && beast_chars.last() == dish_chars.last()

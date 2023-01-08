@@ -1,4 +1,4 @@
-fn count_sheep(n: u32) -> String {
+pub fn count_sheep(n: u32) -> String {
     (1..=n)
         .collect::<Vec<u32>>()
         .iter()

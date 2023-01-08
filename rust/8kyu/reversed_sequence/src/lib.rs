@@ -1,4 +1,4 @@
-fn reverse_seq(n: u32) -> Vec<u32> {
+pub fn reverse_seq(n: u32) -> Vec<u32> {
     let mut result = (1..=n).collect::<Vec<u32>>();
     result.reverse();
     result

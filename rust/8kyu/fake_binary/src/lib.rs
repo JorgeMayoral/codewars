@@ -1,4 +1,4 @@
-fn fake_bin(s: &str) -> String {
+pub fn fake_bin(s: &str) -> String {
     s.chars()
         .map(|c| match c.to_digit(10) {
             Some(d) => {
