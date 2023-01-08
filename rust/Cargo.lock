@@ -31,6 +31,10 @@ name = "reversed_sequence"
 version = "0.1.0"
 
 [[package]]
+name = "reversed_strings"
+version = "0.1.0"
+
+[[package]]
 name = "square_n_sum"
 version = "0.1.0"
 
